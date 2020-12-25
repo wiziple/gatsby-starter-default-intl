@@ -51,7 +51,7 @@ plugins: [
       // language JSON resource path
       path: `${__dirname}/src/intl`,
       // supported language
-      languages: [`en`, `ko`, `de`],
+      languages: [`en`, `ko`, `de`, { locale: "es", prefix: "spanish" }],
       // language file path
       defaultLanguage: `ko`,
       // option to redirect to `/ko` when connecting `/`
